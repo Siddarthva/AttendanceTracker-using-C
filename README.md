@@ -1,40 +1,34 @@
-Attendance Management System 📚
+Attendance Management System
 
-This is a simple Attendance Management System implemented in C. The program tracks attendance for multiple subjects, records attendance for each day, and calculates attendance percentages. It saves attendance data to files for persistent storage and allows you to load previous attendance records.
+A Simple and Effective Attendance Tracking Solution
 
-Features 📝
+This Attendance Management System is designed to track attendance for multiple subjects, record attendance for each day, and calculate attendance percentages. The system saves attendance data to files for persistent storage and allows you to load previous attendance records.
 
-- Record Attendance: The system allows recording daily attendance for multiple subjects 📅
-- Track Attendance: It tracks the number of classes attended and the total number of classes for each subject 📊
-- Attendance Percentage: Calculates the attendance percentage for each subject and saves it to a log 📝
-- File Persistence: Saves subject names, attendance counts, and attendance percentages to files, which can be loaded and updated across sessions 💻
-- Flexible Subject Management: You can add subjects, and the system keeps track of attendance for each subject 📚
+Key Features
 
-Files Used 📁
+📝 Record Attendance: Record daily attendance for multiple subjects
+📅 Track Attendance: Track the number of classes attended and the total number of classes for each subject
+📊 Attendance Percentage: Calculate the attendance percentage for each subject and save it to a log
+📁 File Persistence: Save subject names, attendance counts, and attendance percentages to files
+💻 Flexible Subject Management: Add subjects and track attendance for each subject
 
-- subjects.txt: Stores the subjects and their attendance data (present and total counts) 📝
-- attendance_percentage.txt: Stores the attendance percentage for each subject on each day 📊
+System Files
 
-How It Works 🤔
+📁 subjects.txt: Stores subject names and attendance data
+📝 attendance_percentage.txt: Stores attendance percentages for each subject
 
-1. Initialization: On the first run, you will be prompted to enter the number of subjects and their names. Attendance data is initialized to 0 for each subject 📊
-2. Recording Attendance: The program prompts you for the day and asks you to enter attendance for each subject. You can mark each subject as Present (P) or Absent (A). The attendance for each subject is updated 📅
-3. Saving Data: After recording the attendance, the data is saved to subjects.txt. The attendance percentage for each subject is calculated and logged in attendance_percentage.txt 📝
+How It Works
 
-Getting Started 🚀
+1. Initialization: Enter the number of subjects and their names on the first run. Attendance data is initialized to 0 for each subject.
+2. Recording Attendance: Enter attendance for each subject for a given day. Mark each subject as Present (P) or Absent (A).
+3. Saving Data: Save attendance data to subjects.txt and calculate attendance percentages for each subject.
 
-To run this program:
+Getting Started
 
 1. Clone or download the repository to your local machine 💻
-2. Compile the C code:
+2. Compile the C code: gcc -o attendance_management attendance_management.c
+3. Run the program: ./attendance_management
 
-gcc -o attendance_management attendance_management.c
+License
 
-3. Run the program:
-
-./attendance_management
-
-
-License 📜
-
-This project is open source and available under the MIT License.
+This project is open source and available under the MIT License 📜
